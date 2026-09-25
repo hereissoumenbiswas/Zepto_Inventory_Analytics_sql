@@ -4,6 +4,12 @@ The project demonstrates practical use of PostgreSQL, data cleaning, exploratory
 # 🎯 Project Objective
 The objective of this project is to analyze Zepto’s inventory data using SQL to understand product availability, pricing, discounts, inventory levels, and potential revenue loss. The analysis aims to turn raw inventory data into useful business insights for better inventory and pricing decisions.
 
+## 🛠️ Tools Used
+
+- **PostgreSQL** — database & query engine
+- **pgAdmin 4** — GUI for schema creation and CSV import
+- **SQL** — schema design, data cleaning, and analysis queries
+
 ## 🛠️ Data Pipeline & Technical Architecture
 
 ### 1. Database Schema Design
@@ -27,8 +33,19 @@ The project uses PostgreSQL with explicit data types mapped to quick-commerce op
 | **Average Catalog Discount** | **17.62%** | Storewide promotional markdown depth across all listed products. |
 | **Total Physical Stock Units** | **14,959 units** | Count of physical units available across all shelves in the dark store. |
 
-## 🛠️ Tools Used
+## 🔍 Key Findings & Analysis Results
 
-- **PostgreSQL** — database & query engine
-- **pgAdmin 4** — GUI for schema creation and CSV import
-- **SQL** — schema design, data cleaning, and analysis queries
+* **High-Value Lost Revenue Recovery:** Out-of-stock items create a lost revenue risk of **₹11,102.50** across **12.14%** of catalog SKUs.
+* **Category Capital Distribution:** Total inventory capital is **₹22,43,092.00**. Capital is concentrated in **Fruits & Vegetables**, **Munchies & Snacks**, and **Dairy, Bread & Eggs**. **Beauty, Hygiene & Cleaning**.
+* **High-Value Margin Drivers:** Products priced above **₹500.00** carrying discount markdowns below **10.00%** account for primary store gross margins.
+* **Logistical Weight Bucket Distribution:** **14,959 total available quantity** across all SKUs, segmented into three weight categories:
+  * **Low Weight ($\le 500\text{g}$):** **12,902 units** (**86.25%**)
+  * **Medium Weight ($501\text{g} - 1000\text{g}$):** **1,446 units** (**9.67%**)
+  * **High Weight ($> 1000\text{g}$):** **611 units** (**4.08%**)
+ 
+## 🔗 Connect
+
+**Author:** Soumen Biswas
+*(https://www.linkedin.com/in/hereissoumenbiswas/)*
+
+*A practice project to strengthen SQL skills - schema design, data cleaning, and business-question analysis.*
