@@ -98,7 +98,7 @@ Zepto-Sales-Analysis/
 ├── data/
 │   └── Zepto_dataset.csv
 ├── docs/
-│   └── (Executive_summary)
+│   └── (Zepto_key_insights)
 ├── screenshots/
 │   └── (pgAdmin query + result screenshots)
 └── script/
