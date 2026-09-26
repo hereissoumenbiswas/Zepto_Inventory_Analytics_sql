@@ -99,7 +99,7 @@ Zepto-Sales-Analysis/
 │   └── Zepto_dataset.csv
 ├── docs/
 │   └── (Executive_summary)
-├── screenshot/
+├── screenshots/
 │   └── (pgAdmin query + result screenshots)
 └── script/
     └── Zepto_analysis.sql
