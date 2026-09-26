@@ -101,7 +101,7 @@ Zepto-Sales-Analysis/
 │   └── (Executive_summary)
 ├── screenshot/
 │   └── (pgAdmin query + result screenshots)
-└── scripts/
+└── script/
     └── Zepto_analysis.sql
 ```
 
